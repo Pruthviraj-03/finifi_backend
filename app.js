@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://finifi-frontend.vercel.app/",
+    origin: "https://finifitask.vercel.app/",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
